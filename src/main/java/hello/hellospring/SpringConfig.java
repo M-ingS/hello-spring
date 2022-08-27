@@ -31,6 +31,6 @@ public class SpringConfig {
         return new JdbcMemberRepository(dataSource);
     }
     //스프링이 뜰 때 @Bean으로 memberService, memberRepository를 스프링 빈에 등록을 함
-    //스프링 빈에 등록되어 있는 memberRepository를 멤버 서비스에 넣어줌
+    //스프링 빈에 등록되어 있는 memberRepository를 멤버 서비스에 넣어
 
 }
